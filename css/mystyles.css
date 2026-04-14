@@ -1,0 +1,136 @@
+.header{
+    background-color: pink;
+    color: white;
+    height: 100px;
+    line-height: 100px;
+}
+.mainbody{
+    background-color: whitesmoke;
+}
+img{
+    display: block;
+    width:40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.footer{
+    background-color: pink;
+    color: white;
+    height: 25px;
+    line-height: 25px;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+}
+
+.common{
+    text-align: center;
+    font-family: cursive
+}
+
+nav{
+    background-color: rgb(255, 224, 229);
+    padding: 10px;
+    overflow: hidden;
+}
+
+nav a{
+    color: #332;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+nav a:hover{
+    background-color: #ccc
+}
+ol {
+    list-style-position: inside;
+    padding: 0; /* Removes default left padding to ensure perfect centering */
+}
+li {
+    margin-bottom: 20px;
+}
+/* This applies to both the numbered and bulleted lists */
+ol, ul {
+    list-style-position: inside;
+    padding: 0;
+    margin-top: 10px; /* Adds a little space above the list */
+}
+
+/* Optional: This removes the indentation for the nested list 
+   to keep it perfectly centered under the main heading */
+ul li {
+    list-style-type: disc; /* Ensures they stay as dots */
+}
+/* 1. Style the main numbered items */
+ol > li {
+    font-size: 24px;      /* Makes the "Baking", "Reading", etc. larger */
+    font-weight: bold;   /* Optional: makes them stand out more */
+    margin-bottom: 25px; /* Adds space between the main hobby sections */
+}
+
+/* 2. Style the text descriptions and the bulleted list */
+ol li p, 
+ul li {
+    font-size: 16px;      /* Makes bullets and descriptions smaller */
+    font-weight: normal;  /* Ensures they aren't bold like the headings */
+}
+
+/* 3. Tighten the spacing of the bullets */
+ul {
+    margin-top: 5px;      /* Brings the list closer to the description */
+    margin-bottom: 10px;  /* Space before the image */
+}
+
+ul li {
+    margin-bottom: 2px;   /* Reduces the vertical gap between each bullet */
+}
+/* 1. Make the main numbered items stand out (Bold) */
+ol > li {
+    font-size: 24px;
+    font-weight: bold; 
+    margin-bottom: 20px;
+}
+
+/* 2. Style the descriptions (e.g., "Favorite dishes") */
+ol li p {
+    font-size: 16px;
+    font-weight: normal; /* Makes it less bold than the main number */
+    margin-bottom: 2px;  /* This shrinks the gap below the text */
+    margin-top: 5px;     /* Optional: adds a tiny bit of space above the text */
+}
+
+/* 3. Style the bulleted list and its items */
+ul {
+    margin-top: 0px;     /* Removes the gap at the top of the bullet list */
+    padding-left: 0;
+    list-style-position: inside;
+}
+
+ul li {
+    font-size: 16px;
+    font-weight: normal; /* Ensures bullets aren't bold */
+    margin-bottom: 2px;  /* Keeps bullets close together */
+}
+iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px; /* Gives it a little breathing room from the bullet points above */
+    max-width: 100%; /* Ensures the video shrinks to fit if viewed on a smaller screen */
+}
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+.tableauPlaceholder {
+    margin: 0 auto; /* This centers the graph horizontally */
+    max-width: 1000px; /* Optional: keeps it from getting too wide on big screens */
+}
