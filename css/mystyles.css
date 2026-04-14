@@ -15,7 +15,7 @@ img{
 }
 .footer{
     background-color: pink;
-    color: white;
+    color: black;
     height: 25px;
     line-height: 25px;
     position: fixed;
@@ -123,7 +123,7 @@ iframe {
     max-width: 100%; /* Ensures the video shrinks to fit if viewed on a smaller screen */
 }
 .footer a {
-    color: white;
+    color: black;
     text-decoration: none;
 }
 
